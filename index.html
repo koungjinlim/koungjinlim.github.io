@@ -28,10 +28,8 @@
         text-transform: uppercase; 
         letter-spacing: 0.5px; 
         margin-top: 40px; 
-        /* #1: 헤더를 블루로 */
         color: #475569;
     }
-    /* #1: 링크를 블루로 */
     a { color: #475569; }
     a:hover { color: #1e3a5f; }
     
@@ -45,8 +43,7 @@
     .paper { margin-bottom: 16px; }
     .paper-title { font-weight: 500; }
     .paper-meta { color: #666; font-size: 0.9em; margin-top: 2px; }
-    /* #4: Award를 블루 톤으로 */
-    .award { color: #64748b; font-size: 0.85em; font-style: italic; }
+    .award { color: #64748b; font-size: 0.85em; font-style: italic; margin-left: 12px; }
     
     @media (max-width: 600px) {
         .header { flex-direction: column; align-items: center; text-align: center; }
@@ -119,10 +116,15 @@
     </div>
 
     <h2>Teaching</h2>
-    <p><span class="paper-title">Kennesaw State University</span> (2025–Present)<br>
-    Strategic Management (Undergraduate)</p>
-    <p><span class="paper-title">Purdue University</span> (2020–2024)<br>
-    Strategic Management (Undergraduate)</p>
+    <div class="paper">
+        <div class="paper-title">Kennesaw State University</div>
+        <div class="paper-meta">Strategic Management (Undergraduate), 2025–Present</div>
+    </div>
+    <div class="paper">
+        <div class="paper-title">Purdue University</div>
+        <div class="paper-meta">Strategic Management (Undergraduate), 2020–2025</div>
+        <div class="award">Two-time Graduate Teaching Award (2023, 2025); Five-time Distinguished Instructor (2020–2024)</div>
+    </div>
 
     <h2>Personal</h2>
     <p>Outside of work, I'm an avid fan of music and manga—particularly the jazz manga <em>Blue Giant</em> and the 80s Japanese hard rock band Vow Wow. Weekends are for family.</p>
