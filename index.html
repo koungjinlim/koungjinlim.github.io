@@ -3,100 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koungjin Lim - Kennesaw State University</title>
+    <title>Koungjin Lim</title>
     <style>
         body {
-            font-family: Georgia, serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 0 20px;
+            font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+            margin: 0;
+            padding: 40px;
             line-height: 1.6;
             color: #333;
+            font-size: 15px;
         }
-        h1 { font-size: 1.8em; margin-bottom: 5px; }
-        h2 { font-size: 1.2em; margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
-        a { color: #0066cc; }
-        .info { color: #666; margin-bottom: 20px; }
-        .photo { float: right; margin: 0 0 20px 30px; }
-        .photo img { width: 150px; border: 1px solid #ddd; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .pub-venue { color: #666; }
-        .email { font-family: monospace; }
+        .container { display: flex; max-width: 1000px; margin: 0 auto; gap: 60px; }
+        .sidebar { width: 200px; flex-shrink: 0; }
+        .sidebar img { width: 150px; border-radius: 4px; margin-bottom: 16px; }
+        .sidebar h1 { font-size: 1.3em; margin: 0 0 4px 0; }
+        .sidebar .title { font-size: 0.85em; color: #666; margin-bottom: 16px; }
+        .sidebar .links { font-size: 0.85em; line-height: 2; }
+        .sidebar .links a { color: #333; display: block; }
+        .main { flex: 1; }
+        h2 { font-size: 1em; border-left: 3px solid #333; padding-left: 12px; margin-top: 32px; }
+        .paper { margin-bottom: 20px; }
+        .paper-title { font-weight: bold; }
+        .paper-authors { color: #555; }
+        .paper-venue { color: #666; font-style: italic; }
+        .paper-award { color: #888; font-size: 0.9em; }
     </style>
 </head>
 <body>
-    <div class="photo">
-        <img src="photo.jpeg" alt="Koungjin Lim">
+    <div class="container">
+        <div class="sidebar">
+            <img src="photo.jpeg" alt="Koungjin Lim">
+            <h1>Koungjin (KJ) Lim</h1>
+            <div class="title">
+                Assistant Professor<br>
+                Kennesaw State University
+            </div>
+            <div class="links">
+                <a href="mailto:klim6@kennesaw.edu">✉ klim6@kennesaw.edu</a>
+                <a href="https://scholar.google.com/citations?user=J0D7GJwAAAAJ">↗ Google Scholar</a>
+                <a href="https://facultyweb.kennesaw.edu/klim6/index.php">↗ Faculty Page</a>
+            </div>
+        </div>
+        <div class="main">
+            <h2>About</h2>
+            <p>
+                I am an Assistant Professor of Strategic Management at the Michael A. Leven School, Coles College of Business.
+                I received my Ph.D. from Purdue University, M.Sc. from KAIST, and B.A. from Sungkyunkwan University.
+            </p>
+            <p>
+                My research lies at the intersection of strategic human capital, entrepreneurship, and corporate strategy.
+            </p>
+
+            <h2>Publications</h2>
+            <div class="paper">
+                <div class="paper-title">Build, Borrow, Buy… or Bail: Divestiture Following M&A Deal Termination</div>
+                <div class="paper-authors">with R. Anthony Gibbs and Heejung Byun</div>
+                <div class="paper-venue">Strategy Science, Forthcoming</div>
+                <div class="paper-award">★ AOM STR Distinguished Paper Award; SMS Best Paper Honorable Mention</div>
+            </div>
+            <div class="paper">
+                <div class="paper-title">Deal Termination Risk and M&A Performance: A New Measure</div>
+                <div class="paper-authors">with R. Anthony Gibbs and Heejung Byun</div>
+                <div class="paper-venue">Advances in Mergers and Acquisitions, 2026, 25(1): 99-113</div>
+            </div>
+
+            <h2>Working Papers</h2>
+            <div class="paper">
+                <div class="paper-title">Unlocking Synergies Through Hiring: Post-M&A Complementarity Hiring and Its Performance Implications</div>
+                <div class="paper-authors">with Heejung Byun</div>
+                <div class="paper-venue">R&R at Strategic Management Journal</div>
+                <div class="paper-award">★ AOM STR Best Paper Award Nominee</div>
+            </div>
+            <div class="paper">
+                <div class="paper-title">When M&A Attempts Fail: M&A Deal Termination and Subsequent Corporate Strategy Transactions</div>
+                <div class="paper-authors">with Heejung Byun</div>
+                <div class="paper-venue">R&R at Journal of Management</div>
+            </div>
+            <div class="paper">
+                <div class="paper-title">When Are Hiring and M&A Substitutes? M&A Deal Terminations and Subsequent Hiring</div>
+                <div class="paper-authors">with Heejung Byun</div>
+            </div>
+            <div class="paper">
+                <div class="paper-title">The Career Consequences of Startup Failure for Founders and Employees</div>
+                <div class="paper-authors">with Heejung Byun and Joseph Raffiee</div>
+            </div>
+            <div class="paper">
+                <div class="paper-title">The Competitive Costs of Post-Merger Target Employee Turnover</div>
+                <div class="paper-authors">with Heejung Byun and Joseph Raffiee</div>
+            </div>
+
+            <h2>Teaching</h2>
+            <p>Strategic Management (Undergraduate)</p>
+        </div>
     </div>
-    
-    <h1>Koungjin (KJ) Lim</h1>
-    <p class="info">
-        Assistant Professor of Strategic Management<br>
-        <a href="https://www.kennesaw.edu/coles/academics/management-entrepreneurship-hospitality/index.php">Michael A. Leven School of Management, Entrepreneurship and Hospitality</a><br>
-        Coles College of Business, Kennesaw State University<br><br>
-        Email: <span class="email">klim6 [at] kennesaw.edu</span><br>
-        <a href="https://scholar.google.com/citations?user=J0D7GJwAAAAJ">Google Scholar</a> · <a href="https://facultyweb.kennesaw.edu/klim6/index.php">Faculty Page</a>
-    </p>
-
-    <h2>About</h2>
-    <p>
-        I am an Assistant Professor of Strategic Management at Kennesaw State University. 
-        I received my Ph.D. in Management (Strategy) from Purdue University, M.Sc. in Business and Technology Management from KAIST, and B.A. in Economics from Sungkyunkwan University.
-    </p>
-    <p>
-        My research interests include strategic human capital, entrepreneurship, and corporate strategy. 
-        My work has been recognized with the Academy of Management STR Division Distinguished Paper Award 
-        and SMS Best Paper Honorable Mention.
-    </p>
-
-    <h2>Publications</h2>
-    <ul>
-        <li>
-            <strong>Build, Borrow, Buy… or Bail: Divestiture Following M&A Deal Termination</strong><br>
-            with R. Anthony Gibbs and Heejung Byun<br>
-            <span class="pub-venue"><em>Strategy Science</em>, Forthcoming</span>
-        </li>
-        <li>
-            <strong>Deal Termination Risk and M&A Performance: A New Measure</strong><br>
-            with R. Anthony Gibbs and Heejung Byun<br>
-            <span class="pub-venue"><em>Advances in Mergers and Acquisitions</em>, 2026, 25(1): 99-113</span>
-        </li>
-    </ul>
-
-    <h2>Working Papers</h2>
-    <ul>
-        <li>
-            <strong>Unlocking Synergies Through Hiring: Post-M&A Complementarity Hiring and Its Performance Implications</strong><br>
-            with Heejung Byun<br>
-            <span class="pub-venue">R&R at <em>Strategic Management Journal</em></span>
-        </li>
-        <li>
-            <strong>When M&A Attempts Fail: M&A Deal Termination and Subsequent Corporate Strategy Transactions</strong><br>
-            with Heejung Byun<br>
-            <span class="pub-venue">R&R at <em>Journal of Management</em></span>
-        </li>
-        <li>
-            <strong>When Are Hiring and M&A Substitutes? M&A Deal Terminations and Subsequent Hiring</strong><br>
-            with Heejung Byun
-        </li>
-        <li>
-            <strong>The Career Consequences of Startup Failure for Founders and Employees</strong><br>
-            with Heejung Byun and Joseph Raffiee
-        </li>
-        <li>
-            <strong>The Competitive Costs of Post-Merger Target Employee Turnover</strong><br>
-            with Heejung Byun and Joseph Raffiee
-        </li>
-    </ul>
-
-    <h2>Teaching</h2>
-    <ul>
-        <li>Strategic Management (Undergraduate)</li>
-    </ul>
-
-    <p style="margin-top: 50px; color: #999; font-size: 0.85em;">
-        Last updated: January 2025
-    </p>
 </body>
 </html>
